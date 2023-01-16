@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    color: rgb(23, 23, 23);
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    color: rgb(23, 23, 23);
+    text-decoration: none;
+    border-bottom: 1px dotted rgb(23, 23, 23);
+}
+
+a:hover {
+    color: rgb(222, 12, 23);
+    border-bottom-color: rgb(222, 12, 23);
+}
+
+/* General styles */
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    height: 120px;
+}
+
+nav {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+nav .logo-link {
+    border-bottom: none;
+}
+
+nav .header-logo {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+nav .header-logo img {
+    width: 22px;
+    margin: 0;
+}
+
+nav .header-logo p {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 800;
+    margin-left: 8px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 14px;
+    border-left: 1px solid #fff;
+    margin-bottom: 8px;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    margin: 0 10px;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+nav ul li:first-child a {
+    margin: 0 10px 0 0;
+}
+
+nav ul li a:hover {
+    color: rgb(222, 12, 23);
+    text-decoration: none;
+}
+
+.active {
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: rgb(0, 0, 0);
+}
+
+.footer-container {
+    width: 100%;
+    color: #fff;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.footer-container span {
+    font-size: 14px;
+}
+
+.footer-container p {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.footer-container p a {
+    color: #fff;
+    border-bottom: none;
+    margin-right: 5px;
+}
+
+.footer-container p a:hover {
+    color: rgb(222, 12, 23);
+}
+
+
+main {
+    max-width: 1080px;
+    margin: 60px auto;
+    line-height: 25px;
+}
+
+main h1 {
+    margin-bottom: 1.5em;
+}
+
+main p,
+h2,
+li {
+    margin-bottom: 1em;
+}
+
+figure {
+    margin: 40px auto;
+}
+
+iframe {
+    display: flex;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 12px;
+    padding: 18px 0 0;
+    text-align: center;
+}
